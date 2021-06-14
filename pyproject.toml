@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sumador"
+name = "sumadora"
 version = "0.0.5"
 description = "Sumador básico"
 authors = ["Santiago Quiñones"]
