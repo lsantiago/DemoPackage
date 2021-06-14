@@ -9,7 +9,7 @@ def cli(numbers_string):
     numbers_string = numbers_string.split()
     numbers_int = list(map(lambda num: int(num), numbers_string))
     result = sumar(*numbers_int)
-    print(result)
+    print("Result: " + result)
 
 
 if __name__ == "__main__":
