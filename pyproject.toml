@@ -5,6 +5,9 @@ description = "Sumador básico"
 authors = ["Santiago Quiñones"]
 license = "MIT"
 
+[tool.poetry.scripts]
+sumadora = 'sumadora.__main__:cli'
+
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^8.0.1"
