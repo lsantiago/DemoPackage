@@ -1,0 +1,36 @@
+Instalación de poetry 
+>> curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
+
+Inicia poetry
+>> poetry init
+
+Inicio de entorno virtual de poetry
+>> poetry shell
+
+Agregando dependencias
+>> poetry add click
+
+Agregando dependenncias de desarrollo
+>> poetry add --dev bump2version isort pytest
+
+Agregando dependencia en desarrollo sin release, versión estable de black
+>> poetry add --dev --allow-prereleases black
+
+Ejemplo de código a agregar estilo
+~~~
+import click
+from collections import defaultdict, deque
+import math
+import math
+from collections import Counter, Container
+
+for i in range(18):
+    print(i  )
+
+    import pdb
+
+    pdb.set_trace()
+~~~
+
+Referencias:
+https://github.com/python-poetry/poetry
