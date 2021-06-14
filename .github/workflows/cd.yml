@@ -35,11 +35,7 @@ jobs:
       - name: Unit tests
         run: |
           source $HOME/.poetry/env
-          make test-unit
-      - name: End-to-end tests
-        run: |
-          source $HOME/.poetry/env
-          make test-end-to-end
+          make test
       - name: Build package
         run: |
           source $HOME/.poetry/env
