@@ -8,14 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/lsantiago/DemoPackage"
 repository = "https://github.com/lsantiago/DemoPackage"
 keywords = ["calculadora", "sumadora"]
-classifiers = [
-    "Environment :: Console",
-    "Framework :: sumadora",
-    "Operating System :: OS Independent",
-    "Topic :: Software Development :: Documentation",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Software Development :: Quality Assurance",
-]
+
 
 [tool.poetry.scripts]
 sumadora = 'sumadora.__main__:cli'
