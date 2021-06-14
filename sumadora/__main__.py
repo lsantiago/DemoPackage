@@ -11,5 +11,6 @@ def cli(numbers_string):
     result = sumar(*numbers_int)
     print(result)
 
+
 if __name__ == "__main__":
     cli()
