@@ -32,5 +32,16 @@ for i in range(18):
     pdb.set_trace()
 ~~~
 
+Iniciar repositorio de git. 
+
+Cambiar nombre de rama
+>> git branch -m master main
+
+
+Ejecutar pruebas
+>> PYTHONPATH=. pytest test/
+>> python -m pytest test/
+
+
 Referencias:
 https://github.com/python-poetry/poetry
