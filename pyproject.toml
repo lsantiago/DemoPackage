@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sumadora"
-version = "0.0.12"
+version = "0.0.13"
 description = "Sumador básico"
 authors = ["Santiago Quiñones"]
 license = "MIT"
