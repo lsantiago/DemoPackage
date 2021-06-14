@@ -43,5 +43,8 @@ Ejecutar pruebas
 >> python -m pytest test/
 
 
+Ejecución de programa
+python -m sumadora "1 2 3 4"
+
 Referencias:
 https://github.com/python-poetry/poetry
